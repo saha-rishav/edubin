@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Distressed&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+
+    <style>
+      .owl-carousel .owl-item img {
+        display: unset;
+        width: unset;
+      }
+      .owl-theme .owl-dots .owl-dot.active span,
+      .owl-theme .owl-dots .owl-dot:hover span {
+        background-color: var(--clr-main-hover);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <nav id="header">
+      <div>
+        <div class="navbar">
+          <div class="logo">
+            <a href="#">
+              <img src="./assets/green-logo-2.png" alt="" />
+            </a>
+          </div>
+
+          <ul class="links">
+            <li>
+              <a href="#" class="active"
+                >Home <i class="fa-solid fa-angle-down"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#">Courses <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Features <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Pages <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+            </li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <div class="cart-icon">
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile-nav" id="mobile-nav">
+        <ul class="links">
+          <li>
+            <a href="#">Home</a>
+            <i class="fa-solid fa-plus"></i>
+          </li>
+          <li>
+            <a href="#">Courses</a>
+            <i class="fa-solid fa-plus"></i>
+          </li>
+          <li>
+            <a href="#">Features</a>
+            <i class="fa-solid fa-plus"></i>
+          </li>
+          <li>
+            <a href="#">Pages</a>
+            <i class="fa-solid fa-plus"></i>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+            <i class="fa-solid fa-plus"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+      <div class="container">
+        <div class="hero-section">
+          <div class="leftBlock">
+            <h4>ONLINE COOKING CLASSES</h4>
+            <h1>
+              Through a series of video tutorials, you'll learn popular recipes
+            </h1>
+            <button class="btn">Explore More</button>
+          </div>
+          <div class="rightBlock">
+            <img src="./assets/SH932.png" alt="" />
+          </div>
+          <img class="hero-second-image" src="./assets/LEN92.png" alt="" />
+          <img
+            class="parallax-image-1 layer"
+            data-speed="2"
+            src="./assets/SH523.png"
+            alt=""
+          />
+          <img
+            class="parallax-image-2 layer"
+            data-speed="2"
+            src="./assets/SH913.png"
+            alt=""
+          />
+          <img
+            class="parallax-image-3 layer"
+            data-speed="2"
+            src="./assets/SH921.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Interactive Section -->
+    <section class="section">
+      <div class="container">
+        <div class="main-div">
+          <div class="block1">
+            <h3>Live & Interactive</h3>
+            <p>Online Classes with the chef</p>
+          </div>
+          <div class="block1">
+            <h3>Learn From</h3>
+            <p>The world top class chefs</p>
+          </div>
+          <div class="block1">
+            <h3>24/7 Support</h3>
+            <p>From world class Masterchefs</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Digital Chef -->
+    <section class="section">
+      <div class="container bgImg">
+        <div class="bgImg-content">
+          <div class="leftBlock"></div>
+          <div class="centerBlock">
+            <h3>Become a Digital Chef</h3>
+            <p>Teach a community of cooking enthusiasts</p>
+          </div>
+          <div class="rightBlock">
+            <button class="btn">Get Started Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Course -->
+    <section class="section">
+      <div class="container">
+        <div class="featured-block">
+          <h1>Explore Featured Courses</h1>
+          <div class="container-item">
+            <div class="card">
+              <div class="img-body">
+                <img
+                  src="./assets/C9104-251x300.jpg"
+                  class="card-image"
+                  alt=""
+                />
+                <div class="item-category">
+                  <p>cooking</p>
+                </div>
+                <div class="playButton">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <div class="review-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                  </div>
+                  <div class="review">
+                    <p>(1 Review)</p>
+                  </div>
+                </div>
+                <h2>Full Stack Web Development Tutorial</h2>
+                <div class="customer">
+                  <div class="customer-img">
+                    <img src="./assets/smallImge.jpeg" alt="" />
+                  </div>
+                  <div class="customer-name">
+                    <p>Mark Alen</p>
+                  </div>
+                </div>
+
+                <div class="pricing">
+                  <div>
+                    <ul class="d-flex">
+                      <li><i class="fa-regular fa-user"></i> 7</li>
+                      <li><i class="fa-solid fa-book"></i> 11</li>
+                      <li><i class="fa-regular fa-circle-question"></i> 1</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p>Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="img-body">
+                <img
+                  src="./assets/CA012-251x300.jpg"
+                  class="card-image"
+                  alt=""
+                />
+                <div class="item-category">
+                  <p>cooking</p>
+                </div>
+                <div class="playButton">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="review-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                  </div>
+                  <div class="review">
+                    <p>(1 Review)</p>
+                  </div>
+                </div>
+                <h2>Complete Digital Marketing Course</h2>
+                <div class="customer">
+                  <div class="customer-img">
+                    <img src="./assets/smallImge.jpeg" alt="" />
+                  </div>
+                  <div class="customer-name">
+                    <p>Hanna Ben</p>
+                  </div>
+                </div>
+
+                <div
+                  class="pricing d-flex justify-content-between align-items-center"
+                >
+                  <div>
+                    <ul class="d-flex">
+                      <li><i class="fa-regular fa-user"></i>15</li>
+                      <li><i class="fa-solid fa-book"></i>11</li>
+                      <li><i class="fa-regular fa-circle-question"></i>1</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p>Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="img-body">
+                <img
+                  src="./assets/CA131-251x300.jpg"
+                  class="card-image"
+                  alt=""
+                />
+                <div class="item-category">
+                  <p>cooking</p>
+                </div>
+                <div class="playButton">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="review-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                  </div>
+                  <div class="review">
+                    <p>(1 Review)</p>
+                  </div>
+                </div>
+                <h2>Healthy food recipes for beginners</h2>
+                <div class="customer">
+                  <div class="customer-img">
+                    <img src="./assets/smallImge.jpeg" alt="" />
+                  </div>
+                  <div class="customer-name">
+                    <p>Mark Alen</p>
+                  </div>
+                </div>
+
+                <div
+                  class="pricing d-flex justify-content-between align-items-center"
+                >
+                  <div>
+                    <ul class="d-flex">
+                      <li><i class="fa-regular fa-user"></i>1</li>
+                      <li><i class="fa-solid fa-book"></i>10</li>
+                      <li><i class="fa-regular fa-circle-question"></i>1</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p>$79.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="img-body">
+                <img
+                  src="./assets/CA930-251x300.jpg"
+                  class="card-image"
+                  alt=""
+                />
+                <div class="item-category">
+                  <p>cooking</p>
+                </div>
+                <div class="playButton">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+
+              <div class="card-body">
+                <div class="review-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                    <i class="fa-solid fa-star" style="color: #ff9500"></i>
+                  </div>
+                  <div class="review">
+                    <p>(1 Review)</p>
+                  </div>
+                </div>
+                <h2>Teaching Children English Online Course</h2>
+                <div class="customer">
+                  <div class="customer-img">
+                    <img src="./assets/smallImge.jpeg" alt="" />
+                  </div>
+                  <div class="customer-name">
+                    <p>Tom Hardy</p>
+                  </div>
+                </div>
+
+                <div
+                  class="pricing d-flex justify-content-between align-items-center"
+                >
+                  <div>
+                    <ul class="d-flex">
+                      <li><i class="fa-regular fa-user"></i>153</li>
+                      <li><i class="fa-solid fa-book"></i>10</li>
+                      <li><i class="fa-regular fa-circle-question"></i>1</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p>Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button class="btn">View All Courses</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Categories -->
+    <section class="section">
+      <div class="container">
+        <div class="top-categories">
+          <h1>Choose from top categories</h1>
+          <div class="top-categories-item">
+            <div class="categoryImage">
+              <img src="./assets/CA131-251x300.jpg" alt="" />
+              <div>
+                <p>Asian</p>
+                <p>15 Courses</p>
+              </div>
+            </div>
+            <div class="categoryImage">
+              <img src="./assets/C9104-251x300.jpg" alt="" />
+              <div>
+                <p>Holiday</p>
+                <p>13 Courses</p>
+              </div>
+            </div>
+            <div class="categoryImage">
+              <img src="./assets/CA012-251x300.jpg" alt="" />
+              <div>
+                <p>Italian</p>
+                <p>24 Courses</p>
+              </div>
+            </div>
+            <div class="categoryImage">
+              <img src="./assets/CA930-251x300.jpg" alt="" />
+              <div>
+                <p>Special Occasion</p>
+                <p>20 Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Rated Chefs -->
+    <section class="section">
+      <div class="container">
+        <div class="top-rated">
+          <div class="leftBlock">
+            <img class="" src="./assets/OI823.png" alt="" />
+          </div>
+          <div class="rightBlock">
+            <h1>
+              Top-rated chefs, you can take cooking lessons online classes offer
+            </h1>
+            <p>
+              You can start and finish one of these popular courses in under a
+              day – for free! Check out the list below. Earn your bachelor’s or
+              master’s degree incredible selection of menus.
+            </p>
+            <div class="rightBox-inner">
+              <div class="leftBox">
+                <img src="./assets/CAP92.png" alt="" />
+                <p>
+                  Interactive online cooking classes! With live online cooking
+                  classes
+                </p>
+              </div>
+              <div class="rightBox">
+                <img src="./assets/BOT031.png" alt="" />
+                <p>
+                  Explore the world of gourmet cuisine with fully interactive
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Online Course -->
+    <section class="section">
+      <div class="container section-online-course">
+        <img src="./assets/SOB73.jpg" class="w-100 banner" alt="" />
+        <div class="main-wraper">
+          <div class="d-flex align-items-center">
+            <div class="image-circle">
+              <img src="./assets/ICO03.png" alt="" />
+            </div>
+            <div>
+              <p class="number">400+</p>
+              <p class="info">Online Courses</p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="image-circle bg-white">
+              <img src="./assets/IC532.png" alt="" />
+            </div>
+            <div>
+              <p class="number">23 k+</p>
+              <p class="info">Active Students</p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="image-circle bg-white">
+              <img src="./assets/ICO42.png" alt="" />
+            </div>
+            <div>
+              <p class="number">17 k+</p>
+              <p class="info">Certified Courses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Students Saying Section -->
+    <section class="section">
+      <div class="container">
+        <div class="students-saying">
+          <h2>What our proud Students Saying</h2>
+          <div class="owl-carousel owl-theme student-slider">
+            <div class="single slide">
+              <div class="profile-image">
+                <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
+                <img src="./assets/TE24.jpg" alt="" />
+              </div>
+              <div class="student-review">
+                <p>
+                  I recommend these courses to everyone, and wish you, guys,
+                  luck with the new studies! Lorem ipsum dolor sit amet
+                  consectetur adipisicing.
+                </p>
+
+                <p class="name">Monica Blews</p>
+              </div>
+            </div>
+
+            <div class="single slide">
+              <div class="profile-image">
+                <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
+                <img src="./assets/CH80.jpg" alt="" />
+              </div>
+              <div class="student-review">
+                <p>
+                  I recommend these courses to everyone, and wish you, guys,
+                  luck with the new studies! Lorem ipsum dolor sit amet
+                  consectetur adipisicing.
+                </p>
+
+                <p class="name">Eleanor Baker</p>
+              </div>
+            </div>
+
+            <div class="single slide">
+              <div class="profile-image">
+                <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
+                <img src="./assets/CH32.jpg" alt="" />
+              </div>
+              <div class="student-review">
+                <p>
+                  I recommend these courses to everyone, and wish you, guys,
+                  luck with the new studies! Lorem ipsum dolor sit amet
+                  consectetur adipisicing.
+                </p>
+
+                <p class="name">James Smith</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <div class="downloadBookDiv">
+      <img src="./assets/MS714.jpeg" alt="" />
+      <div id="downloadBook">
+        <div class="downloadContent text-center">
+          <h4>Download E-Book</h4>
+          <h1>FREE World-Famous Spanish Tapas Ebook</h1>
+          <button class="btn">Get Started Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-item">
+          <div class="leftBlock">
+            <img src="./assets/green-logo.png" alt="" />
+            <p>
+              Edubin perfect for online courses and other institutes. It’s a
+              complete solution with lms functionalities.
+            </p>
+          </div>
+
+          <div class="centerBlock1">
+            <h4>Feature Links</h4>
+            <div class="center-content">
+              <div class="left">
+                <p>About Us</p>
+                <p>Internationa</p>
+                <p>Our Team</p>
+                <p>Alumni</p>
+              </div>
+              <div class="right">
+                <p>Admissions</p>
+                <p>Scholarship</p>
+                <p>Contact</p>
+                <p>Events</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="centerBlock2">
+            <h4>Support</h4>
+            <p>About Us</p>
+              <p>Our Team</p>
+              <p>Contact</p>
+              <p>FAQs</p>
+          </div>
+
+          <div class="rightBlock">
+            <h4>Contact Us</h4>
+            <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
+            <p>+1 23-4567-8920</p>
+            <p>info@yourmail.com</p>
+          </div>
+        </div>
+
+        <div class="footer-item-2">
+          <div class="leftBlock">
+            <p>© 2023 Pixelcurve. All rights reserved.</p>
+          </div>
+          <div class="rightBlock">
+            <ul class="d-flex icons">
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-youtube"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./plugins/owl.carousel.min.js"></script>
+    <script src="./script.js"></script>
+
+    <script>
+      $(".student-slider").owlCarousel({
+        autoplay: true,
+        pauseOnHover: true,
+        autoplayTimeout: 3500,
+        items: 2,
+        nav: false,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          768: {
+            items: 1,
+            nav: false,
+          },
+          1200:{
+            items: 2,
+            nav: false
+          }
+        },
+      });
+    </script>
+  </body>
+</html>

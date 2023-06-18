@@ -1,0 +1,362 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .mobile-nav {
+    display: unset;
+  }
+  .mobile-nav.active {
+    opacity: 1;
+  }
+  .navbar {
+    padding: 15px;
+  }
+  .navbar .links {
+    display: none;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+
+  .navbar .hamburger i {
+    font-size: 22px;
+    color: gray;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    padding: 160px 20px 0px 20px;
+  }
+
+  .hero-section .leftBlock h1 {
+    font-size: 32px;
+  }
+
+  .hero-section .rightBlock img {
+    width: 100%;
+  }
+
+  .hero-section .hero-second-image {
+    width: 70%;
+  }
+
+  .section-online-course {
+    height: 80vh;
+  }
+
+  .students-saying .student-slider .student-review {
+    padding-top: 0;
+    text-align: center;
+}
+  .section-online-course .banner {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .students-saying .student-slider .single {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .students-saying .student-slider .profile-image {
+    width: 100px;
+  }
+
+  .downloadBookDiv {
+    height: 100vh;
+  }
+
+  .downloadBookDiv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .downloadBookDiv #downloadBook {
+    top: 40%;
+  }
+
+  .section-online-course .main-wraper {
+    flex-direction: column;
+  }
+
+  section {
+    width: auto;
+    padding: 0;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  .main-div {
+    display: block;
+    text-align: center;
+    padding: 45px;
+  }
+  .main-div .block1 h3 {
+    font-size: 20px;
+  }
+  .main-div .block1 p {
+    font-size: 14px;
+  }
+  .block1 {
+    padding: 15px;
+  }
+  .bgImg {
+    width: auto;
+    height: 200px;
+    border-radius: 10px;
+  }
+  .bgImg .bgImg-content {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .rightBlock-inner {
+    display: block;
+  }
+
+  .downloadContent {
+    bottom: 5%;
+    left: 0;
+    line-height: 2.75rem;
+  }
+  #downloadBook {
+    height: 250px;
+  }
+
+  .hero-section .parallax-image-1 {
+    position: absolute;
+    top: 90px;
+    left: -25px;
+    width: 150px;
+  }
+  .hero-section .parallax-image-2 {
+    position: absolute;
+    bottom: 100px;
+    left: 0%;
+    width: 100px;
+  }
+  .hero-section .parallax-image-3 {
+    position: absolute;
+    right: 0;
+    top: 340px;
+    width: 100px;
+  }
+
+  /* Featured Course */
+  .featured-block {
+    padding: 50px 0px;
+  }
+  .featured-block .container-item {
+    display: block;
+    width: auto;
+    margin-top: 25px;
+  }
+  .featured-block h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+  }
+  .featured-block .container-item .card {
+    width: auto;
+    margin-bottom: 25px;
+  }
+
+  /* Top Categories */
+  .top-categories .top-categories-item {
+    display: block;
+  }
+  .top-categories .top-categories-item .categoryImage {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .top-categories {
+    padding: 75px 0;
+  }
+
+  /* Top rated */
+  .top-rated {
+    display: block;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  .top-rated .leftBlock img {
+    height: auto;
+    width: 100%;
+  }
+  .top-rated .leftBlock {
+    width: unset;
+    text-align: center;
+  }
+  .top-rated .rightBlock {
+    width: unset;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .top-rated .rightBlock .rightBox-inner {
+    display: block;
+  }
+  .top-rated .rightBlock h1,
+  .top-rated .rightBlock p {
+    text-align: left;
+  }
+  .top-rated .rightBlock .rightBox-inner .leftBox {
+    margin-bottom: 25px;
+  }
+
+  /* Footer */
+
+  .footer .footer-item {
+    display: block;
+  }
+  .footer .footer-item .leftBlock,
+  .footer .footer-item .rightBlock {
+    width: auto;
+  }
+
+  .footer .footer-item .centerBlock1 {
+    width: 100%;
+  }
+  .footer .footer-item-2 {
+    display: block;
+    text-align: left;
+  }
+  .footer .footer-item-2 .leftBlock {
+    margin-bottom: 15px;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  section {
+    padding: 0;
+  }
+  .navbar {
+    padding: 20px;
+  }
+
+  .mobile-nav {
+    display: unset;
+  }
+
+  .mobile-nav.active {
+    opacity: 1;
+  }
+
+  .navbar .links {
+    display: none;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+
+  .navbar .hamburger i {
+    font-size: 22px;
+    color: gray;
+  }
+
+  .hero-section .leftBlock h1 {
+    font-size: 38px;
+  }
+  .hero-section {
+    padding: 140px 0px 100px 0px;
+  }
+  .hero-section .rightBlock img {
+    width: 100%;
+  }
+
+  .hero-section .hero-second-image {
+    width: 35%;
+  }
+
+  .featured-block .container-item {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .featured-block .container-item .card {
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 14px 12px rgb(0 0 0 / 6%);
+  }
+  .hero-section .parallax-image-2 {
+    bottom: 50px;
+    left: 45%;
+    width: 100px;
+  }
+  .hero-section .parallax-image-1 {
+    top: 100px;
+    left: -5px;
+    width: 100px;
+  }
+  .hero-section .parallax-image-3 {
+    right: 0;
+    top: 100px;
+    width: 100px;
+  }
+  .top-rated .rightBlock {
+    padding: 0px 30px;
+  }
+  .top-rated {
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  .top-categories .top-categories-item {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .top-categories .top-categories-item .categoryImage {
+    width: 48%;
+  }
+
+  .featured-block .container-item .card h2 {
+    font-size: 22px;
+  }
+
+  .top-rated .rightBlock h1 {
+    font-size: 26px;
+    color: #29303b;
+    line-height: 45px;
+  }
+
+  .container {
+    margin: 0 20px;
+  }
+  .bgImg {
+    width: auto;
+    height: 150px;
+  }
+  .bgImg .bgImg-content {
+    padding-top: 50px;
+  }
+
+  .main-div {
+    padding: 50px;
+  }
+  .main-div .block1 h3 {
+    font-size: 20px;
+  }
+  .main-div .block1 p {
+    font-size: 14px;
+  }
+  /* Top Rated */
+  .top-rated .leftBlock img {
+    height: auto;
+    width: 100%;
+  }
+  .students-saying .student-slider .student-review {
+    padding-top: 0px;
+  }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
